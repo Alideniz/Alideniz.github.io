@@ -9,8 +9,7 @@
     <title>Ali Deniz Altun</title>
 
     <link rel="icon" href="favicon.ico" type="image/png" />
-
-    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
     <style>
         /* Minimal CSS Reset */
@@ -46,15 +45,10 @@
             list-style: none;
         }
 
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
         /* Typography */
 
         html {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Noto Sans JP', sans-serif;
         }
 
         @media (min-width: 576px) {
@@ -113,7 +107,7 @@
         }
 
         main {
-            background: #AF3D4E;
+            background: #020101D6;
             color: #FAFAFA;
         }
 
@@ -124,14 +118,22 @@
         .icons-social a svg path {
             fill: #FAFAFA;
         }
+
+        .profile {
+            max-height: 200px;
+            max-height: 200px;
+            margin: 1.5rem
+        }
     </style>
 </head>
 
 <body>
     <main>
+        <div>
+            <img class="profile"  src="./profile.jpg" />
+        </div>
         <div class="intro">Hello, I'm Ali Deniz!</div>
         <div class="tagline">Full Stack Web Developer</div>
-        <div class="tagline"></div>
         <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
         <div class="icons-social">
             <a target="_blank" href="https://github.com/Alideniz"><i class="fab fa-github"></i></a>
